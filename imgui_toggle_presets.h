@@ -18,7 +18,7 @@ namespace ImGuiTogglePresets
     IMGUI_API ImGuiToggleConfig iOSStyle(float size_scale = 1.0f, bool light_mode = false);
 
     // A style that emulates what a Material Design toggle looks like.
-    IMGUI_API MaterialStyle(float size_scale = 1.0f);
+    IMGUI_API ImGuiToggleConfig MaterialStyle(float size_scale = 1.0f);
 
     // A style that emulates what a toggle close to one from Minecraft.
     IMGUI_API ImGuiToggleConfig MinecraftStyle(float size_scale = 1.0f);
